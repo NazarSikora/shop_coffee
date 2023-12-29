@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #020204;
+    color: #ffffff;
+}
+
+hr {
+    height: 1px;
+    border: none;
+    background-color: #32323D;
+}
+
+.pre-header {
+    padding: 10px 0px;
+}
+
+.container {
+    max-width: 1197px;
+    margin: 0px auto;
+}
+
+.pre-header__data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pre-header__languages {
+    display: flex;
+}
+
+.language {
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Jost', sans-serif;
+    color: #FFFFFF;
+    font-weight: 600;
+    transition: 1s all;
+}
+
+.language:hover {
+    color: #C7A17A;
+}
+
+.active {
+    color: #C7A17A;
+    margin-left: 10px;
+}
+
+.pre-header__telefon {
+    font-size: 14px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+}
