@@ -200,6 +200,72 @@ a {
     color: #DFDFDF;
 }
 
+.catalog__title {
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.catalog-cards__firstblock {
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalog-cards__secondblock {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.catalog-cards__card {
+    border-radius: 10px;
+    margin: 15px;
+    padding: 15px;
+    width: 33%;
+    cursor: pointer;
+    background-color: #14141D;
+    transition: 0.5s all;
+}
+
+.catalog-cards__card:hover {
+    background-color: #22222F;
+}
+
+.card-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalog-cards__image {
+    text-align: center;
+}
+
+.card-content__prices {
+    display: flex;
+}
+
+.card-content__title {
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.price {
+    font-family: 'Jost';
+    font-size: 18px;
+
+}
+
+.future_price {
+    font-family: 'Jost';
+    font-size: 18px;
+    color: #818181;
+    text-decoration: line-through;
+    margin-left: 25px;
+}
+
 @media (max-width: 1211px) {
     .container {
         max-width: 997px;
@@ -288,9 +354,32 @@ a {
     }
     
     .card-item__text {
-        font-family: 'Jost', sans-serif;
         font-size: 14px;
-        color: #DFDFDF;
+    }
+
+    .catalog__title {
+        font-size: 35px;
+    }
+    
+    .catalog-cards__secondblock {
+        margin-top: 10px;
+    }
+    
+    .card-content__title {
+        font-size: 22px;
+    }
+    
+    .future_price {
+        font-family: 'Jost';
+        font-size: 16px;
+        color: #818181;
+        text-decoration: line-through;
+        margin-left: 25px;
+    }
+
+    .card-content img {
+        width: 18px;
+        height: 18px;
     }
 }
 
@@ -381,6 +470,52 @@ a {
         font-size: 16px;
         color: #DFDFDF;
     }
+
+    .catalog__title {
+        margin-bottom: 20px;
+        font-size: 30px;
+        font-family: 'Jost', sans-serif;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+    
+    .catalog-cards__secondblock {
+        margin-top: 5px;
+    }
+    
+    .catalog-cards__card {
+        border-radius: 10px;
+        margin: 5px;
+        padding: 5px;
+        width: 33%;
+        cursor: pointer;
+        background-color: #14141D;
+        transition: 0.5s all;
+    }
+    
+    .catalog-cards__card:hover {
+        background-color: #22222F;
+    }
+    
+    .card-content__title {
+        font-family: 'Jost', sans-serif;
+        font-size: 20px; /* */
+        font-weight: 900;
+    }
+    
+    .price {
+        font-family: 'Jost';
+        font-size: 16px;
+    
+    }
+    
+    .future_price {
+        font-family: 'Jost';
+        font-size: 16px;
+        color: #818181;
+        text-decoration: line-through;
+        margin-left: 20px;
+    }
 }
 
 @media(max-width: 618px) {
@@ -389,11 +524,31 @@ a {
         margin: 0px auto;
     }
 
+    .catalog-cards__card {
+        margin-bottom: 20px;
+    }
+
     .home__title {
         font-size: 30px;
     }
 
     .card-item__text {
         font-size: 14px;
+    }
+
+    .catalog__title {
+        font-size: 30px;
+    }
+
+    .catalog-cards__card {
+        width: 100%;
+    }
+
+    .catalog-cards__firstblock {
+        display: block;
+    }
+
+    .catalog-cards__secondblock {
+        display: block;
     }
 }
