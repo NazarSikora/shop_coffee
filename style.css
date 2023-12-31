@@ -266,6 +266,46 @@ a {
     margin-left: 25px;
 }
 
+.news {
+    margin-top: 80px;
+}
+
+.news__title {
+    font-family: 'Jost', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.news-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-cards__card {
+    border-radius: 10px;
+    background-color: #14141D;
+    margin-right: 15px;
+}
+
+.news-cards__title {
+    padding-bottom: 10px;
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.news-cards__text {
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    color: #DFDFDF;
+}
+
+.news-cards__content {
+    padding: 20px 20px;
+}
+
 @media (max-width: 1211px) {
     .container {
         max-width: 997px;
@@ -312,6 +352,47 @@ a {
         font-family: 'Jost', sans-serif;
         font-size: 16px;
         color: #DFDFDF;
+    }
+
+    .news__title {
+        font-family: 'Jost', sans-serif;
+        font-size: 40px;
+        font-weight: 900;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+    }
+    
+    .news-cards {
+        display: block;
+    }
+    
+    .news-cards__card {
+        width: 55%;
+        margin: 0px auto;
+        border-radius: 10px;
+        background-color: #14141D;
+        margin-bottom: 20px;
+    }
+
+    .news-cards__image img {
+        width: 100%;
+    }
+    
+    .news-cards__title {
+        padding-bottom: 10px;
+        font-family: 'Jost', sans-serif;
+        font-size: 24px;
+        font-weight: 900;
+    }
+    
+    .news-cards__text {
+        font-family: 'Jost', sans-serif;
+        font-size: 18px;
+        color: #DFDFDF;
+    }
+    
+    .news-cards__content {
+        padding: 20px 20px;
     }
 }
 
@@ -380,6 +461,43 @@ a {
     .card-content img {
         width: 18px;
         height: 18px;
+    }
+
+    .news__title {
+        font-family: 'Jost', sans-serif;
+        font-size: 40px;
+        font-weight: 900;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+    }
+    
+    .news-cards__card {
+        width: 55%;
+        margin: 0px auto;
+        border-radius: 10px;
+        background-color: #14141D;
+        margin-bottom: 20px;
+    }
+
+    .news-cards__image img {
+        width: 100%;
+    }
+    
+    .news-cards__title {
+        padding-bottom: 10px;
+        font-family: 'Jost', sans-serif;
+        font-size: 22px;
+        font-weight: 900;
+    }
+    
+    .news-cards__text {
+        font-family: 'Jost', sans-serif;
+        font-size: 16px;
+        color: #DFDFDF;
+    }
+    
+    .news-cards__content {
+        padding: 20px 20px;
     }
 }
 
@@ -499,7 +617,7 @@ a {
     
     .card-content__title {
         font-family: 'Jost', sans-serif;
-        font-size: 20px; /* */
+        font-size: 20px;
         font-weight: 900;
     }
     
@@ -515,6 +633,19 @@ a {
         color: #818181;
         text-decoration: line-through;
         margin-left: 20px;
+    }
+
+    .news__title {
+        font-size: 30px;
+    }
+
+    .news-cards__title {
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+    
+    .news-cards__text {
+        font-size: 14px;
     }
 }
 
@@ -550,5 +681,26 @@ a {
 
     .catalog-cards__secondblock {
         display: block;
+    }
+
+    .news-cards__card  {
+        width: 100%;
+    }
+
+    .news-cards__title {
+        padding-bottom: 10px;
+        font-family: 'Jost', sans-serif;
+        font-size: 20px;
+        font-weight: 900;
+    }
+    
+    .news-cards__text {
+        font-family: 'Jost', sans-serif;
+        font-size: 14px;
+        color: #DFDFDF;
+    }
+    
+    .news-cards__content {
+        padding: 10px 10px;
     }
 }
